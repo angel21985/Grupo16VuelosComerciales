@@ -2,16 +2,32 @@ import pandas as pd
 import numpy as np
 from sqlalchemy import create_engine
 import MySQLdb
+import boto3
+import io
 #pip install mysqlclient
 #pip install sqlalchemy
 
-# se importan los csv
-plane_data = pd.read_csv('dirty_csv/plane-data.csv')
-airlines = pd.read_csv('dirty_csv/airlines.csv')
-airports = pd.read_csv('dirty_csv/airports.csv')
-flights = pd.read_csv('dirty_csv/flights.csv')
-available_seat = pd.read_csv('dirty_csv/available_seat.csv', sep=';')
-revenue_passenger = pd.read_csv('dirty_csv/revenue_passenger.csv', sep=';')
+#se obtienen los datasets de s3
+s3 = boto3.client('s3')
+
+obj = s3.get_object(Bucket='grupo16-csv', Key='plane-data.csv')
+plane_data = pd.read_csv(io.BytesIO(obj['Body'].read()))
+
+obj = s3.get_object(Bucket='grupo16-csv', Key='airlines.csv')
+airlines = pd.read_csv(io.BytesIO(obj['Body'].read()))
+
+obj = s3.get_object(Bucket='grupo16-csv', Key='airports.csv')
+airports = pd.read_csv(io.BytesIO(obj['Body'].read()))
+
+obj = s3.get_object(Bucket='grupo16-csv', Key='flights.csv')
+flights = pd.read_csv(io.BytesIO(obj['Body'].read()))
+
+obj = s3.get_object(Bucket='grupo16-csv', Key='available_seat.csv')
+available_seat = pd.read_csv(io.BytesIO(obj['Body'].read()), sep=';')
+
+obj = s3.get_object(Bucket='grupo16-csv', Key='revenue_passenger.csv')
+revenue_passenger = pd.read_csv(io.BytesIO(obj['Body'].read()), sep=';')
+
 
 # limpieza y normalizacion de los datos
 plane_data.loc[plane_data.year=='None','year']=np.nan
