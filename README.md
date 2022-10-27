@@ -31,8 +31,32 @@ El Departamento de Transporte de Estados Unidos (U.S. DOT) está interesado en c
 
 ## **Procedimiento Planteado**
 
+Dsede la parte técnica, se realizó una búsqueda de fuentes de datos, datasets en formato CSV. Esos csv fueron almacenados en un bucket de S3. Amazon Simple Storage Service (Amazon S3) es un servicio de almacenamiento de objetos que ofrece escalabilidad, disponibilidad de datos, seguridad y rendimiento líderes en el sector. Clientes de todos los tamaños y sectores pueden almacenar y proteger cualquier cantidad de datos para prácticamente cualquier caso de uso, como los lagos de datos, las aplicaciones nativas en la nube y las aplicaciones móviles. Gracias a las clases de almacenamiento rentables y a las características de administración fáciles de usar, es posible optimizar los costos, organizar los datos y configurar controles de acceso detallados para cumplir con requisitos empresariales, organizacionales y de conformidad específicos. Se necesitó la creación de una nueva base de datos en MySQL, dentro de RDS para almacenar futuras tablas vacías que almacenarán los datos normalizados. El siguiente paso fue con la ayuda de BOTO3 en S3 crear un script para que podamos trabajar de manera más cómoda los archivos en PYTHON. Poder limpiar los dataframes, normalizarlos.
+Luego de que logramos normalizar los dataframes, el siguiente paso fue transportarlos a MySQL donde nos esperaban las tablas vacías para ser llenadas con estos dataframes. 
+En la etapa final de este proceso se utilizó las herramientas GLUE, CRAWLERS y JOB para generar un WORKFLOW en AWS. Este WORKFLOW es la herramienta que nos permitirá que las nuevas tablas ingresadas puedan ser guardadas en nuevo bucket de S3 para seguir trabajando de manera ordenada con todos los datos alamacenados.
 
+Entre objetivos generales planteados para el proyecto se tomó en cuenta:
 
+- Monitorear y definir proyectos
+acordes a la situación actual.
+
+- Poder complementarlo con
+una visión completa de lo que
+ha pasado históricamente.
+
+-Tener conocimiento de la
+cancelación de vuelos y los
+atrasos de éstos.
+
+Los indicadores que se propusieron estudiar para evaluar en el proyecto:
+
+- Reducir la cantidad de
+vuelos demorados en un
+20% por año hasta alcanzar
+por lo menos el 5% de los
+vuelos anuales.
+
+- 
 
 ## Links    
 
