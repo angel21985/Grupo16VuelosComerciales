@@ -37,26 +37,22 @@ En la etapa final de este proceso se utilizó las herramientas GLUE, CRAWLERS y 
 
 Entre objetivos generales planteados para el proyecto se tomó en cuenta:
 
-- Monitorear y definir proyectos
-acordes a la situación actual.
+- Monitorear y definir proyectos acordes a la situación actual.
 
-- Poder complementarlo con
-una visión completa de lo que
-ha pasado históricamente.
+- Poder complementarlo con una visión completa de lo que ha pasado históricamente.
 
--Tener conocimiento de la
-cancelación de vuelos y los
-atrasos de éstos.
+-Tener conocimiento de la cancelación de vuelos y los atrasos de éstos.
 
 Los indicadores que se propusieron estudiar para evaluar en el proyecto:
 
-- Reducir la cantidad de
-vuelos demorados en un
-20% por año hasta alcanzar
-por lo menos el 5% de los
-vuelos anuales.
+- Reducir la cantidad de vuelos demorados en un 20% por año hasta alcanzar por lo menos el 5% de los vuelos anuales.
 
-- 
+- Reducir las cancelaciones de vuelos entre un 10% a 15% no causados por fenómenos climáticos.
+
+- Disminuir la desocupación de asientos en un 10% por año hasta lograr bajar un 50% de la desocupación.
+
+- Disminuir el tiempo de retraso en la salida de vuelos en por lo menos un 30% por año.
+
 
 ## Links    
 
