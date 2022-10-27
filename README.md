@@ -3,11 +3,11 @@
 ## _Proyecto Grupal HENRY Octubre 2022_
 
 <p align="center">
-<img src="https://img.freepik.com/fotos-premium/avion-despegando-aeropuerto_37416-74.jpg?w=1480"   
+<img src="https://s3.amazonaws.com/arc-wordpress-client-uploads/infobae-wp/wp-content/uploads/2018/01/17155044/Avion-despegando.jpg"   
 height="400">
 </p>
 
-El Departamento de Transporte de Estados Unidos (U.S. DOT) está interesado en conocer información relacionada al tráfico aéreo a nivel global, con el fin de poder monitorear y definir proyectos acordes a la situación actual (o lo más actual posible dentro de los alcances del proyecto), además de poder complementarlo con una visión completa de lo que ha pasado históricamente. Dentro de la información mínima que necesita saber el Departamento, está la cancelación de vuelos y los atrasos de éstos..
+El Departamento de Transporte de Estados Unidos (U.S. DOT) está interesado en conocer información relacionada al tráfico aéreo a nivel global, con el fin de poder monitorear y definir proyectos acordes a la situación actual y además de poder complementarlo con una visión completa de lo que ha pasado históricamente. Dentro de la información mínima que necesita saber el Departamento, está la cancelación de vuelos y los atrasos de éstos.
 
 
 ## **Objetivos Propuestos**
@@ -22,9 +22,12 @@ El Departamento de Transporte de Estados Unidos (U.S. DOT) está interesado en c
 
 - **Crear dashboards** que contengan información clave y útil.
 
-## **Herramientas a Utilizar**
+## **Herramientas Principales A Utilizar**
 
-
+- [AWS](https://aws.amazon.com/es/free/?trk=eb709b95-5dcd-4cf8-8929-6f13b8f2781f&sc_channel=ps&s_kwcid=AL!4422!3!561348326837!e!!g!!aws&ef_id=Cj0KCQjwteOaBhDuARIsADBqRegg2z6og-ihE1zN8m4lx2g-cfBe1qAPpqv56uqPQKVNbL5mq7dWSYQaAk0xEALw_wcB:G:s&s_kwcid=AL!4422!3!561348326837!e!!g!!aws&all-free-tier.sort-by=item.additionalFields.SortRank&all-free-tier.sort-order=asc&awsf.Free%20Tier%20Types=*all&awsf.Free%20Tier%20Categories=*all)
+- [PYTHON](https://www.python.org/)
+- [POWER BI](https://powerbi.microsoft.com/es-es/)
+- [MySQL](https://www.mysql.com/)
 
 ## **Procedimiento Planteado**
 
