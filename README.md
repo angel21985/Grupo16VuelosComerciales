@@ -53,6 +53,7 @@ Los indicadores que se propusieron estudiar para evaluar en el proyecto:
 
 - Disminuir el tiempo de retraso en la salida de vuelos en por lo menos un 30% por año.
 
+El último paso fue el análisis y comprensión de los datos obtenidos para estudio futuro y visualización de los mismos. La herramienta principal a utilar fue POWER BI, con algunas intervenciones de GOOGLE SLIDES durante el crecimiento del proyecto.
 
 ## Links    
 
